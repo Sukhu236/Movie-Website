@@ -5,18 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-container">
-            <div class="logo-container"></div>
-            <div class="menu-container"></div>
-            <div class="profile-container"></div>
+            <div class="logo-container"><h1 class="logo">MovieHub</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">My List</li>
+                </ul>
+            </div>
+
+            <div class="search-container">
+                <!-- <img src="/img/search.png" alt="img" class="search-icon"> -->
+                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+
+            <div class="profile-container">
+                <img src="img/profile.jpg" alt="img" class="profile-picture">
+                <div class="profile-text-container">
+                    <span class="profile-text-container">Luffy</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="slidebar"></div>
+    <!-- <div class="slidebar"></div> -->
+     <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+            style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url('img/f-1.jpg')"
+            >
+                <img src="/img/f-t-1.png" alt="" class="featured-title">
+                <p class="featured-desc">Description for the featured content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">BLOODY DADDY</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-items">
+                            <img src="img/img1.webp" alt="img" class="movie-list-item-img">
+                            <span class="movie-list-item-title">Movie Title</span>
+                            <p class="movie-list-item-desc">lore ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam ratione neque, repudiandae beatae repellendus distinctio exercitationem molestiae eius ex dicta quidem modi, soluta, iusto consequuntur libero. Sint, suscipit exercitationem.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
     
-
     <script src="script.js"></script>
 </body>
 </html>
